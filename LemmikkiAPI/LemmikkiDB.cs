@@ -3,8 +3,8 @@ namespace LemmikkiTietokanta;
 
 public class LemmikitDB
 {
-    private static string _connectionString = "Data Source = LemmikitDB.db";
-
+    private static string _connectionString = "Data Source = LemmikitDB.db; Foreign Keys=True";
+    
     public LemmikitDB()
     {
         // luo lemmikki tietokannan.

@@ -1,6 +1,9 @@
 using LemmikkiTietokanta;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.UseUrls("http://0.0.0.0:5215");
+
 var app = builder.Build();
 
 var db = new LemmikitDB();
